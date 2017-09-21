@@ -43,7 +43,7 @@ a {
 }
 
 .title {
-  font-size: 5vh;
+  font-size: 2.5em;
   padding-bottom: 1vh;
   font-weight: 400;
   float: right;
@@ -253,26 +253,26 @@ button#three-lines {
 
 /* Landscape smartphones, portrait tablets, narrow desktops */
 @media screen and (min-width:480px) and (max-width:800px) {
-    body {
-         font-size: 14px;
-    }
+  body {
+    font-size: 14px;
+  }
 }
 
 /* Portrait smartphones */
 @media screen and (max-width:479px) {
-    body {
-      font-size: 10px;
-    }
+  body {
+    font-size: 10px;
+  }
 
-    #arrow-button {
-      display: none;
-    }
+  #arrow-button {
+    display: none;
+  }
 }
 
 @media (pointer:coarse) {
-    .arrow-button-div {
-      display: none;
-    }
+  .arrow-button-div {
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
