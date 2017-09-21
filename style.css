@@ -1,0 +1,275 @@
+body {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.62);
+}
+
+.sticky {
+  position: fixed;
+  background-color: white;
+  top: 0vmin;
+  width: 100%;
+}
+
+.hero-image-gradient {
+  height: 850px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0,	41,	94, 0.8) 50%, transparent), url("./static_assets/shirts.jpg") no-repeat center;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+.flex-container {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.image-text-div {
+  padding-left: 5vh;
+  padding-right: 3vh;
+  padding-top: 30vh;
+  text-align: left;
+  float: right;
+  display: inline-grid;
+  max-width: 425px;
+}
+
+#bold-title-word {
+  font-weight: 700;
+}
+
+.title {
+  font-size: 5vh;
+  padding-bottom: 1vh;
+  font-weight: 400;
+  float: right;
+}
+
+#description {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 90%
+}
+
+#bold-description {
+  font-weight: 700;
+}
+
+.shirt-buttons {
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.our-process-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 160px;
+  margin-right: 10px;
+}
+
+.our-process-button:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 160px;
+  margin-right: 10px;
+}
+
+.our-products-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 160px;
+}
+
+.our-products-button:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 160px;
+  margin-right: 10px;
+}
+
+.arrow-button-div {
+  text-align: center;
+  padding-top: 85vh;
+}
+
+#arrow-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 45px;
+}
+
+#arrow-button:hover {
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-wrapper {
+  height: 80px;
+}
+
+.nav-div {
+  box-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.12);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto 0;
+}
+
+.nav-wrapper .nav-div.sticky {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.abc-creations-title {
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.62);
+  margin-bottom: 0;
+  display: inline-flex;
+  line-height: 1;
+}
+
+.nav-link {
+  padding-top: 20px;
+}
+
+.nav-link:hover {
+  padding-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(0,64,164,.8);
+}
+
+.menu {
+  float: right;
+  padding-right: 20px;
+}
+
+.navbar-light {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-toggler-icon {
+  padding: 0;
+  float: right;
+  margin: auto 0;
+}
+
+.navbar-toggler-icon::selection {
+  padding: 0 20px 0 0;
+  float: right;
+  margin: auto 0;
+}
+
+button#three-lines {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#three-lines:hover {
+  border: none;
+  background-color: rgba(0,64,164,.8);
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.umbrella-girl-image {
+  display: block;
+  margin: auto;
+  width: 55%;
+}
+
+.bottom {
+  height: 1000px;
+  /*padding: 40px;*/
+}
+
+.second-section-header {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 45px;
+  color: rgba(0, 0, 0, 0.62);
+}
+
+.footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  color: rgba(0, 0, 0, 0.62);
+}
+
+#footer-link {
+  font-size: 14px;
+}
+
+#footer-link:hover {
+  font-size: 14px;
+  color: rgba(0,64,164,.8);
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Landscape smartphones, portrait tablets, narrow desktops */
+@media screen and (min-width:480px) and (max-width:800px) {
+    body {
+         font-size: 14px;
+    }
+}
+
+/* Portrait smartphones */
+@media screen and (max-width:479px) {
+
+    body {
+      font-size: 10px;
+    }
+
+    #arrow-button {
+      display: none;
+    }
+}
+
+@media (pointer:coarse) {
+    .arrow-button-div {
+      display: none;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .image-text-div {
+    padding-top: 20vh;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+}
