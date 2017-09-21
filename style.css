@@ -17,7 +17,7 @@ a {
 }
 
 .hero-image-gradient {
-  height: 850px;
+  height: 700px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0,	41,	94, 0.8) 50%, transparent), url("./static_assets/shirts.jpg") no-repeat center;
   background-blend-mode: darken;
   background-size: cover;
@@ -55,6 +55,7 @@ a {
   font-size: 12px;
   line-height: 1.5;
   display: inline-block;
+  word-wrap: inherit;
   /*width: 90%;*/
 }
 
@@ -267,20 +268,43 @@ button#three-lines {
   #arrow-button {
     display: none;
   }
-}
 
-@media (pointer:coarse) {
   .arrow-button-div {
     display: none;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+/*@media (pointer:coarse) {
+  .arrow-button-div {
+    display: none;
+  }
+}*/
+
+@media only screen and (min-device-width: 1023px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .image-text-div {
     padding-top: 20vh;
   }
 
   .title {
     font-size: 34px;
+  }
+}
+
+@media only screen and (min-device-width: 1367px) {
+  .image-text-div {
+    padding-top: 20vh;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .arrow-button-div {
+    padding-top: 600px;
+    margin: 0;
+  }
+
+  #arrow-button {
+    font-size: 40px;
   }
 }
