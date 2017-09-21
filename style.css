@@ -30,12 +30,12 @@ a {
 
 .image-text-div {
   padding-left: 5vh;
-  padding-right: 3vh;
+  padding-right: 15vh;
   padding-top: 30vh;
   text-align: left;
   float: right;
   display: inline-grid;
-  max-width: 425px;
+  max-width: 550px;
 }
 
 #bold-title-word {
@@ -52,12 +52,15 @@ a {
 #description {
   margin-top: 10px;
   margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 1.5;
   display: inline-block;
-  width: 90%
+  /*width: 90%;*/
 }
 
 #bold-description {
   font-weight: 700;
+  display: initial;
 }
 
 .shirt-buttons {
@@ -71,48 +74,49 @@ a {
 
 .our-process-button {
   background-color: transparent;
-  border: 1px solid white;
+  border: 1.5px solid white;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 160px;
+  width: 165px;
   margin-right: 10px;
 }
 
 .our-process-button:hover {
   background-color: white;
-  border: 1px solid white;
+  border: 1.5px solid white;
   color: black;
   cursor: pointer;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 160px;
+  width: 165px;
   margin-right: 10px;
 }
 
 .our-products-button {
   background-color: transparent;
-  border: 1px solid white;
+  border: 1.5px solid white;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 160px;
+  width: 165px;
 }
 
 .our-products-button:hover {
   background-color: white;
-  border: 1px solid white;
+  border: 1.5px solid white;
   color: black;
   cursor: pointer;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 160px;
-  margin-right: 10px;
+  width: 165px;
 }
 
 .arrow-button-div {
   text-align: center;
-  padding-top: 85vh;
+  padding-top: 90vh;
+  padding-bottom: 10vh;
+  font-weight: lighter;
 }
 
 #arrow-button {
@@ -222,13 +226,20 @@ button#three-lines {
 
 .footer {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding-top: 75px;
+  padding-bottom: 125px;
   color: rgba(0, 0, 0, 0.62);
+}
+
+.footer-title {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 #footer-link {
   font-size: 14px;
+  line-height: 1.2;
 }
 
 #footer-link:hover {
@@ -237,6 +248,7 @@ button#three-lines {
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
+  line-height: 1.2;
 }
 
 /* Landscape smartphones, portrait tablets, narrow desktops */
