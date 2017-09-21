@@ -219,14 +219,14 @@ button#three-lines {
 
 .second-section-header {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 20px;
   color: rgba(0, 0, 0, 0.62);
 }
 
 .footer {
   text-align: center;
-  padding-top: 75px;
+  padding-top: 80px;
   padding-bottom: 125px;
   color: rgba(0, 0, 0, 0.62);
 }
